@@ -1,33 +1,62 @@
-section img{
-    max-width: 800px;
+.hero{
+  position: relative;
+  min-height: 450px;
+  /* padding: 60px 80px; */
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+#jessicaKicking {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  max-height: 120%;
+  height: auto;
+  z-index: -1;
 }
 
 body {
   margin: 0;
   background: linear-gradient(to bottom, #3700B4, #A700FF);
-  color: white;;
+  color: white;
+  ;
 }
 
 
-.comic{
-    background-color: black;
-    color: white;
-    padding: 40px;
-    margin-block:2rem;
+.comic {
+  background-color: black;
+  color: white;
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 
-.titulo{
-margin-bottom: 350px;
-margin-right: 170px;
+.titulo {
+  position: absolute;
+  top: 70px;
+  left: 40%;
+  transform: translateX(-50%);
+  max-width: 45%;
+  height: auto;
+  margin: 0;
 }
 
-
-.s1{
-      margin-left: 20px;
-    column-count: 1;
+#texto-hero{
+  max-width: 320px;
+  line-height: 1.5;
+  padding-right: 50px;
 }
 
-h1#beLike{
-      margin-left: 20px
+.s1 {
+  margin-left: 20px;
+  column-count: 1;
+}
+
+h1#beLike {
+  margin-left: 20px
 }
