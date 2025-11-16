@@ -1,0 +1,33 @@
+section img{
+    max-width: 800px;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(to bottom, #3700B4, #A700FF);
+  color: white;;
+}
+
+
+.comic{
+    background-color: black;
+    color: white;
+    padding: 40px;
+    margin-block:2rem;
+}
+
+
+.titulo{
+margin-bottom: 350px;
+margin-right: 170px;
+}
+
+
+.s1{
+      margin-left: 20px;
+    column-count: 1;
+}
+
+h1#beLike{
+      margin-left: 20px
+}

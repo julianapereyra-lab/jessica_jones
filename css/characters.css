@@ -1,0 +1,22 @@
+body{
+background-image: url(/imagenes/characters/background.png);  
+}
+
+section {
+    margin-top: 60px;
+  column-count: 3;
+  column-gap: 40 px; 
+color: white;
+}
+
+
+article {
+  break-inside: avoid;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+p{
+    margin-top: -29px;
+}

@@ -1,0 +1,12 @@
+body{
+  background-image: url(/imagenes/about/About.png);
+background-color: rgba(2, 8, 48, 0.92);
+  font-family: "titillium-web", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: white;
+}
+
+.heroText{
+max-width: 50%;
+}

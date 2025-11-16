@@ -1,0 +1,29 @@
+body{
+background-color: white;
+  font-family: "titillium-web", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+
+a{text-decoration: none;
+  color: black;
+  font-size: larger;
+}
+
+
+nav{
+  background-color: white;
+  height: 50px;         
+  display: flex;
+  align-items: center;
+font-family: "titillium-web", sans-serif;
+font-weight: 600;
+font-style: normal;
+align-content: center;
+}
+
+nav a{
+  margin-left:30px; 
+  margin-block: 30px;
+}

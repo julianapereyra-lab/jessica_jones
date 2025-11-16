@@ -1,0 +1,25 @@
+.hero{
+    background-size: cover;
+    min-height: 100vh;
+    width: 100vw;
+    background-image: url("/imagenes/inicio/hero.png");
+}
+
+.logoHero{
+position: relative;
+top: 100px;
+left: 20px;
+}
+
+
+.buttonHome {
+position: relative;
+top: 90px;
+left: 100px;
+}
+
+footer {
+color: black;
+text-align: center;
+padding: 20px;
+}

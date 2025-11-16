@@ -1,0 +1,19 @@
+body{
+    background-image: url(/imagenes/seasons/background_seasons.png);
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+section {
+    margin-top: 60px;
+  column-count: 3;
+  column-gap: 40 px; 
+}
+
+
+article {
+  break-inside: avoid;
+  margin-bottom: 20px;
+}
