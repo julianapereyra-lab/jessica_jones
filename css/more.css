@@ -23,11 +23,10 @@ body {
   margin: 0;
   background: linear-gradient(to bottom, #3700B4, #A700FF);
   color: white;
-  ;
 }
 
 
-.comic {
+.comics {
   background-color: black;
   color: white;
   padding-left: 40px;
@@ -35,6 +34,20 @@ body {
   padding-bottom: 40px;
 }
 
+.comicArticulo{
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.covers{
+  display: flex;
+}
+
+.textos1{
+max-width: 270px;
+gap: 20px;
+}
 
 .titulo {
   position: absolute;
@@ -52,11 +65,27 @@ body {
   padding-right: 50px;
 }
 
-.s1 {
-  margin-left: 20px;
+.s2 {
+  margin-left: 0px;
   column-count: 1;
 }
 
 h1#beLike {
   margin-left: 20px
 }
+
+.iframeYt{
+  padding: 40px;
+}
+
+.covers{
+  gap: 20px;
+}
+
+.multimedia{
+  display: flex;
+  align-items: flex-start;
+  padding-left: 40px;
+
+}
+

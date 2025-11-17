@@ -1,19 +1,42 @@
-body{
-    background-image: url(/imagenes/seasons/background_seasons.png);
-    background-color: white;
-    background-size: cover;
-    background-repeat: no-repeat;
+body {
+  background-image: url(/imagenes/seasons/background_seasons.png);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% auto;
 }
 
 
 section {
-    margin-top: 60px;
-  column-count: 3;
-  column-gap: 40 px; 
+  margin-top: 0px;
+  max-width: 1440px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
 }
 
 
 article {
-  break-inside: avoid;
-  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+section img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+}
+
+.margen1 {
+  margin: 20px;
+  padding: 40px;
+
+}
+
+.cta{
+  margin-top: auto;
+  display: block;
+  width: auto;
+  max-width: none;
 }

@@ -14,11 +14,11 @@
     <header>
         <nav> <!--barra blanca con links-->
             <a href="/index.html"><img src="/imagenes/barra de nav/logoParaMenu.jpg" width="50" alt="Home"></a>
-            <a href="/secciones/about.html">ABOUT</a>
-            <a href="/secciones/characters.html">CHARACTERS</a>
-            <a href="/secciones/Seasons.html">SEASONS</a>
-            <a href="/secciones/more.html">MORE</a>
-            <a href="/secciones/contactUs.html">CONTACT US</a>
+            <a class="hoverabout" href="/secciones/about.html">ABOUT</a>
+            <a class="hoverabout" href="/secciones/characters.html">CHARACTERS</a>
+            <a class="hoverabout" href="/secciones/Seasons.html">SEASONS</a>
+            <a class="hoverabout" href="/secciones/more.html">MORE</a>
+            <a class="hoverabout" href="/secciones/contactUs.html">CONTACT US</a>
             <a href="https://www.marvel.com/" target="_blank"> <img src="/imagenes/barra de nav/marvel.png"
                     alt="marvel web" width="70"></a>
         </nav>
@@ -27,39 +27,57 @@
         <section class="hero">
             <img id="jessicaKicking" src="/imagenes/More/jessica_comic.png" alt="Jessica Kicking">
             <img class="titulo" src="/imagenes/More/Title 1.svg" alt="Comics&Events">
-            <p class="s1" id="texto-hero">Jessica Jones is a sharp-witted private investigator who uses her strength and
+            <p id="texto-hero">Jessica Jones is a sharp-witted private investigator who uses her strength and
                 resilience to take on cases others can’t handle. Haunted by her past yet determined to fight back, she
                 becomes an unlikely hero in New York’s streets, where every confrontation tests her willpower as much as
                 her superhuman abilities.</p>
         </section>
-        <section>
-            <article class="comic">
-                <img src="/imagenes/More/Comic1.png" alt="Comic 1">
-                <img src="/imagenes/More/Comic2.png" alt="Comic 2">
-                <img src="/imagenes/More/Comic3.png" alt="Comic 3">
-                <h1><span id="learnMore">Learn more</span> <span id="aboutJessica">about Jessica</span></h1>
-                <p class="s1" id="comic">Jessica Jones made her first appearance in Marvel’s Alias comic series, created
-                    by Brian Michael Bendis and Michael Gaydos. As one of Marvel’s most groundbreaking characters, she
-                    broke conventions by blending superhero action with gritty noir storytelling, tackling mature themes
-                    rarely explored in comics at the time.</p>
-                <a href="https://www.marvel.com" target="_blank"><img src="/imagenes/cta/ctaMarvelUnlimited.svg"
-                        alt="watch on Disney +" width="200"></a>
-            </article>
-            <article>
-                <h1 id="beLike">BE like Jessica</h1>
-                <p class="s1">The video features ohjaechaos, a cosplayer, presenting her take on Jessica Jones, in
-                    collaboration with Sartorial Geek. It highlights how the character’s iconic look — dark jeans,
-                    leather jacket, and tough attitude — translates into approachable cosplay. The focus is on embodying
-                    Jessica’s strength, grit, and noir-inspired vibe rather than relying on flashy costumes. The content
-                    celebrates the character’s grounded, relatable style and her impact as one of Marvel’s more
-                    realistic, street-level heroes.</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/tjZyD4J0vfM?si=v1LfH9nqwiP1leiP"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-                </iframe>
+        <!--Acá termina la sección 1-->
+        <section class="comics">
+            <article class="comicArticulo">
+                <div class="covers">
+                    <img src="/imagenes/More/Comic1.png" alt="Comic 1">
+                    <img src="/imagenes/More/Comic2.png" alt="Comic 2">
+                    <img src="/imagenes/More/Comic3.png" alt="Comic 3">
+                    </div>
+                        <div class="textos1">
+                        <h1>Learn More About Jessica</h1>
+                        <p>Jessica Jones made her first appearance in Marvel’s Alias comic series, created
+                            by Brian Michael Bendis and Michael Gaydos. As one of Marvel’s most groundbreaking
+                            characters, she
+                            broke conventions by blending superhero action with gritty noir storytelling, tackling
+                            mature themes
+                            rarely explored in comics at the time.
+                        </p>
+                        <a href="https://www.marvel.com" target="_blank"><img src="/imagenes/cta/ctaMarvelUnlimited.svg"
+                                alt="watch on Disney +" width="200">
+                            </a>
+                            </div>
             </article>
         </section>
+        <!--Acá termina la sección 2-->
+        <section>
+        <article class="multimedia">
+            <div class="textobe">
+            <h1> BE like Jessica</h1>
+            <p>The video features ohjaechaos, a cosplayer, presenting her take on Jessica Jones, in
+                collaboration with Sartorial Geek. It highlights how the character’s iconic look — dark jeans,
+                leather jacket, and tough attitude — translates into approachable cosplay. The focus is on embodying
+                Jessica’s strength, grit, and noir-inspired vibe rather than relying on flashy costumes. The content
+                celebrates the character’s grounded, relatable style and her impact as one of Marvel’s more
+                realistic, street-level heroes.</p>
+                </div>
+                <div class="videobe">
+            <iframe class="iframeYt" width="560" height="315"
+                src="https://www.youtube.com/embed/tjZyD4J0vfM?si=v1LfH9nqwiP1leiP" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+            </div>
+        </article>
+        </section>
+        <!--Acá termina la sección 3-->
     </main>
     <footer>
         <p><em>Juliana Pereyra - Diseño Web- TP1 - 2025</em></p>
