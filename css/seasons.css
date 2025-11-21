@@ -40,3 +40,17 @@ section img {
   width: auto;
   max-width: none;
 }
+
+.skew-boton {
+    background: red;
+    color: white;
+    text-decoration: none;
+    border: none;
+    padding: 15px 60px;
+    cursor: pointer;
+    display: block;
+    margin: 100px;
+    text-align: center;
+    font-weight: 600;
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%)
+}

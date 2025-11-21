@@ -24,7 +24,17 @@ nav {
   font-weight: 600;
   font-style: normal;
   align-content: center;
+  width: 100%;
 }
+
+.wrapper{
+  position: relative;
+  display: flex;
+  min-width: 100px;
+  gap: 10px;
+  padding-left: 60px;
+}
+
 
 nav a {
   margin-left: 30px;
@@ -51,4 +61,8 @@ nav a {
 
 .hoverabout:hover::after {
   transform: scaleX(1);
+}
+
+footer{
+margin-left: 40px;
 }

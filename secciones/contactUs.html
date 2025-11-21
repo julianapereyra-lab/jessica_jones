@@ -7,6 +7,8 @@
   <title>Contact Us</title>
   <link rel="stylesheet" href="https://use.typekit.net/whj6vmn.css">
   <link rel="stylesheet" href="/css/Global.css">
+  <link rel="icon" type="image/png" href="/imagenes/Favicons/72ppi/Contact Us.png">
+  <link rel="stylesheet" href="/css/contactUs.css">
 </head>
 
 <body>
@@ -22,24 +24,30 @@
       </span>
       <a href="https://www.marvel.com/" target="_blank"> <img src="/imagenes/barra de nav/marvel.png" alt="marvel web"
           width="70"></a>
+           <!-- Barra de búsqueda -->
+  <form class="wrapper" action="/secciones/404.html" method="get">
+    <img class="search-icon" src="/imagenes/barra de nav/iconoDeBusqueda.png" alt="Search">
+    <input class="search" name="q" type="text" placeholder="Search + Enter">
+  </form>
     </nav>
   </header>
   <main>
-    <h1>YOUR OPPINION IS IMPORTANT</h1>
+    <h1>YOUR OPINION IS IMPORTANT</h1>
     <p>
     <fieldset>
       <legend><span>Leave your message</span></legend>
-      <span>Name</span>
-      <input type="text" name="Name" autofocus autocomplete="on" placeholder="Your name">
-      <span>E-mail</span>
-      <input type="text" name="E-mail" autofocus autocomplete="on" placeholder="Your E-mail" required>
-      <span>subject</span>
-      <input type="text" name="subject" autofocus autocomplete="off" placeholder="The subject">
-      <span>message</span>
-      <input type="text" name="message" autofocus autocomplete="off" placeholder="Your feedback" required>
+      <span class="titulo">Name</span>
+      <input class="campo" type="text" name="Name" autofocus autocomplete="on" placeholder="Your name">
+      <span class="titulo">E-mail</span>
+      <input class="campo" type="text" name="E-mail" autofocus autocomplete="on" placeholder="Your E-mail" required>
+      <span class="titulo">Subject</span>
+      <input class="campo" type="text" name="subject" autofocus autocomplete="off" placeholder="The subject">
+      <span class="titulo">Message</span>
+      <input  class="campo" id="message" type="text" name="message" autofocus autocomplete="off" placeholder="Your feedback" required>
+         <a href="/secciones/Thankyou.html"><button class="skew-boton">Send</button></a>
     </fieldset>
     </p>
-    <a href="mailto:marvel@marvelstudios.com">marvel@marvelstudios.com</a>
+    <a class="mailto" href="mailto:marvel@marvelstudios.com">marvel@marvelstudios.com</a>
   </main>
   <footer>
     <p><em>Juliana Pereyra - Diseño Web- TP1 - 2025</em></p>

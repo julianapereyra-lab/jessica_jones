@@ -8,28 +8,34 @@
     <link rel="stylesheet" href="https://use.typekit.net/whj6vmn.css">
     <link rel="stylesheet" href="/css/Global.css">
     <link rel="stylesheet" href="/css/index.css">
+    <link rel="icon" type="image/png" href="/imagenes/Favicons/72ppi/Index.png">
 </head>
 
 <body>
     <header>
-        <nav> <!--barra blanca con links-->
-            <a href="index.html"><img src="/imagenes/barra de nav/logoParaMenu.jpg" width="50" alt="Home"></a>
-          <a class="hoverabout" href="secciones/about.html">ABOUT</a>
-            <a class="hoverabout" href="secciones/characters.html">CHARACTERS</a>
-            <a class="hoverabout" href="secciones/Seasons.html">SEASONS</a>
-            <a class="hoverabout" href="secciones/more.html">MORE</a>
-            <a class="hoverabout" href="secciones/contactUs.html">CONTACT US</a>
-            <a href="https://www.marvel.com/" target="_blank"><img src="/imagenes/barra de nav/marvel.png"
-                    alt="marvel web" width="70"></a>
-        </nav>
+<nav>
+  <a href="index.html"><img src="/imagenes/barra de nav/logoParaMenu.jpg" width="50" alt="Home"></a>
+  <a class="hoverabout" href="secciones/about.html">ABOUT</a>
+  <a class="hoverabout" href="secciones/characters.html">CHARACTERS</a>
+  <a class="hoverabout" href="secciones/Seasons.html">SEASONS</a>
+  <a class="hoverabout" href="secciones/more.html">MORE</a>
+  <a class="hoverabout" href="secciones/contactUs.html">CONTACT US</a>
+  <a href="https://www.marvel.com/" target="_blank">
+    <img src="/imagenes/barra de nav/marvel.png" alt="marvel web" width="70">
+  </a>
+
+  <!-- Barra de búsqueda -->
+  <form class="wrapper" action="/secciones/404.html" method="get">
+    <img class="search-icon" src="imagenes/barra de nav/iconoDeBusqueda.png" alt="Search">
+    <input class="search" name="q" type="text" placeholder="Search + Enter">
+  </form>
+</nav>
     </header>
     <main>
         <!-- Imagen que ocupa todo el fondo. Atrás de botón CTA y logo principal, parte del HERO hero.png-->
         <section class="hero">
             <img class="logoHero" src="imagenes/inicio/logo.png" alt="Jessica Jones" width="400">
-            <p class="buttonHome"><a href="https://www.disneyplus.com" target="_blank"><img
-                        src="./imagenes/cta/ctaVerEnDisney.png" alt="watch on Disney +" width="200"></a>
-            </p>
+            <a href="https://www.disneyplus.com/home" target="_blank"><button class="skew-boton">Stream on Disney+</button></a>
         </section>
     </main>
     <footer>
