@@ -1,4 +1,4 @@
-.hero{
+.hero {
     background-size: cover;
     min-height: 100vh;
     width: 100vw;
@@ -8,23 +8,23 @@
     min-height: 100vh;
 }
 
-.logoHero{
-position: relative;
-top: 100px;
-left: 20px;
+.logoHero {
+    position: relative;
+    top: 100px;
+    left: 20px;
 }
 
 
 .buttonHome {
-position: relative;
-top: 90px;
-left: 100px;
+    position: relative;
+    top: 90px;
+    left: 100px;
 }
 
 footer {
-color: black;
-text-align: center;
-padding: 20px;
+    color: black;
+    text-align: center;
+    padding: 20px;
 }
 
 .skew-boton {
@@ -32,11 +32,16 @@ padding: 20px;
     color: white;
     text-decoration: none;
     border: none;
-    padding: 15px 60px;
+    padding: 20px 60px;
     cursor: pointer;
     display: block;
     margin: 100px;
     text-align: center;
     font-weight: 600;
-    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%)
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+    transition: transform 0.3s ease;
+}
+
+.skew-boton:hover {
+    transform: scale(1.1);
 }

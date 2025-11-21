@@ -89,3 +89,11 @@ h1#beLike {
 
 }
 
+.skew-boton {
+  display: inline-block;        
+  transition: transform 0.3s ease;
+}
+
+.skew-boton:hover {
+  transform: scale(1.1);
+}
