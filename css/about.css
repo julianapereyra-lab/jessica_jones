@@ -25,3 +25,18 @@ section {
   margin-top: 50px;
   gap: 50px;
 }
+
+.about-audio {
+  display: flex;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  gap: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.about-audio iframe {
+  width: 100%;
+  border: none;
+  display: block;
+}
